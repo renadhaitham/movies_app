@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:movies_app/screens/search_screen.dart';
 import 'layout/home_layout.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -8,13 +10,13 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      initialRoute:HomeLayout.routeName,
+      initialRoute:SearchScreen.routeName,
       routes: {
         HomeLayout.routeName: (context) => HomeLayout(),
+        SearchScreen.routeName:(context)=> SearchScreen(),
       },
       debugShowCheckedModeBanner: false,
     );

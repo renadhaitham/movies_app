@@ -28,10 +28,10 @@ class _HomeLayoutState extends State<HomeLayout> {
           setState(() {});
         },
         items: [
-          BottomNavigationBarItem(icon: Icon(Icons.home), label: "Home"),
-          BottomNavigationBarItem(icon: Icon(Icons.search), label: "Search"),
-          BottomNavigationBarItem(icon: Icon(Icons.movie), label: "Browse"),
-          BottomNavigationBarItem(icon: Icon(Icons.collections_bookmark), label: "Bookmark"),
+          BottomNavigationBarItem(icon: Icon(Icons.home), label: "HOME"),
+          BottomNavigationBarItem(icon: Icon(Icons.search), label: "SEARCH"),
+          BottomNavigationBarItem(icon: Icon(Icons.movie), label: "BROWSE"),
+          BottomNavigationBarItem(icon: Icon(Icons.collections_bookmark), label: "WATCHLIST"),
         ],
         selectedItemColor: selected,
         unselectedItemColor: unselected,

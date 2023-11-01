@@ -42,7 +42,8 @@ class SearchScreen extends StatelessWidget {
             ),
             Expanded(
               child: Image.asset("assets/images/moviesSearch.png",alignment: Alignment.topCenter,),
-            )
+            ),
+            Expanded(child: Text("No movies found",style: TextStyle(color: Colors.grey),))
           ],
         ),
       ),
